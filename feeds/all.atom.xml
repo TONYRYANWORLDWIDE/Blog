@@ -151,9 +151,7 @@ Name: 2018-12-07, dtype: float64
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;&lt;img alt="png" src="https://Tonyryanworldwide.github.io/Blog/output_7_0.png"&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&amp;amp;lt;Figure size 720x720 with 0 Axes&amp;amp;gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="pelican"></category><category term="Yield"></category><category term="FRED"></category></entry><entry><title>Personal Info</title><link href="https://Tonyryanworldwide.github.io/Blog/personal-info.html" rel="alternate"></link><published>2018-12-09T00:00:00-05:00</published><updated>2018-12-09T00:00:00-05:00</updated><author><name>Tony Ryan</name></author><id>tag:tonyryanworldwide.github.io,2018-12-09:/Blog/personal-info.html</id><summary type="html">&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;pandas&lt;/span&gt;
+&lt;p&gt;&lt;img alt="png" src="https://Tonyryanworldwide.github.io/Blog/output_7_0.png"&gt;&lt;/p&gt;</content><category term="pelican"></category><category term="Yield"></category><category term="FRED"></category></entry><entry><title>Personal Info</title><link href="https://Tonyryanworldwide.github.io/Blog/personal-info.html" rel="alternate"></link><published>2018-12-09T00:00:00-05:00</published><updated>2018-12-09T00:00:00-05:00</updated><author><name>Tony Ryan</name></author><id>tag:tonyryanworldwide.github.io,2018-12-09:/Blog/personal-info.html</id><summary type="html">&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;pandas&lt;/span&gt;
 &lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;pandas&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;
 &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;datetime&lt;/span&gt;
 &lt;span class="c1"&gt;#from pandas import Series&lt;/span&gt;
