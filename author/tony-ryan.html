@@ -14,6 +14,7 @@
                     <li><a href="https://Tonyryanworldwide.github.io/Blog/pages/personal-info.html">Personal Info</a></li>
                     <li><a href="https://Tonyryanworldwide.github.io/Blog/pages/about.html">About</a></li>
                     <li><a href="https://Tonyryanworldwide.github.io/Blog/category/general.html">General</a></li>
+                    <li><a href="https://Tonyryanworldwide.github.io/Blog/category/misc.html">misc</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 
@@ -32,6 +33,43 @@
 
 </footer><!-- /.post-info --><p>This is my first post. I'll be putting in Data Analysis posts soon.</p>                </article>
             </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://Tonyryanworldwide.github.io/Blog/personal-info.html" rel="bookmark"
+                           title="Permalink to Personal Info">Personal Info</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2018-12-09T00:00:00+01:00">
+                Published: Sun 09 December 2018
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://Tonyryanworldwide.github.io/Blog/author/tony-ryan.html">Tony Ryan</a>
+        </address>
+<p>In <a href="https://Tonyryanworldwide.github.io/Blog/category/misc.html">misc</a>.</p>
+
+</footer><!-- /.post-info -->                <div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span>
+<span class="kn">from</span> <span class="nn">pandas</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">import</span> <span class="nn">datetime</span>
+<span class="c1">#from pandas import Series</span>
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">date</span>
+
+<span class="n">TimeDate</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">strptime</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="s1">&#39;%A, %B </span><span class="si">%d</span><span class="s1">&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">date</span><span class="p">()</span>
+
+<span class="n">cols</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Project&#39;</span><span class="p">,</span><span class="s1">&#39;start&#39;</span><span class="p">,</span><span class="s1">&#39;end&#39;</span> <span class="p">,</span> <span class="s1">&#39;Time&#39;</span><span class="p">]</span>
+<span class="n">Time</span> <span class="o">=</span> <span class="n">pandas</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;C:/Users/Tonyryanworldwide/Desktop/Hours/Daily_Time_Detail_All_Projects.csv&#39;</span><span class="p">,</span> <span class="n">skiprows</span> <span class="o">=</span> <span class="mi">2</span><span class="p">,</span> <span class="n">header</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">names</span> <span class="o">=</span>  <span class="p">[</span><span class="s1">&#39;Project&#39;</span><span class="p">,</span><span class="s1">&#39;start&#39;</span><span class="p">,</span><span class="s1">&#39;end&#39;</span> <span class="p">,</span> <span class="s1">&#39;Time …</span></pre></div>
+                <a class="readmore" href="https://Tonyryanworldwide.github.io/Blog/personal-info.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+                </ol><!-- /#posts-list -->
+                </section><!-- /#content -->
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>links</h2>
