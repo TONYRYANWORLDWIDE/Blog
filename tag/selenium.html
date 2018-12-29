@@ -2,7 +2,7 @@
 <html lang="english">
 <head>
         <meta charset="utf-8" />
-        <title>Tony's Blog</title>
+        <title>Tony's Blog - Selenium</title>
         <link rel="stylesheet" href="https://Tonyryanworldwide.github.io/Blog/theme/css/main.css" />
         <link href="https://Tonyryanworldwide.github.io/Blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Tony's Blog Atom Feed" />
 </head>
@@ -399,65 +399,6 @@
 
 <p><img alt="png" src="https://Tonyryanworldwide.github.io/Blog/output_18_0.png"></p>                </article>
             </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://Tonyryanworldwide.github.io/Blog/my-post.html" rel="bookmark"
-                           title="Permalink to Yield Curve2">Yield Curve2</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2018-12-19T00:00:00-05:00">
-                Published: Wed 19 December 2018
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://Tonyryanworldwide.github.io/Blog/author/tony-ryan.html">Tony Ryan</a>
-        </address>
-<p>In <a href="https://Tonyryanworldwide.github.io/Blog/category/pages.html">pages</a>.</p>
-<p>tags: <a href="https://Tonyryanworldwide.github.io/Blog/tag/pelican.html">pelican</a> <a href="https://Tonyryanworldwide.github.io/Blog/tag/yield.html">Yield</a> <a href="https://Tonyryanworldwide.github.io/Blog/tag/fred.html">FRED</a> </p>
-</footer><!-- /.post-info -->                <p>Yield Curve Data from FRED API</p>
-                <a class="readmore" href="https://Tonyryanworldwide.github.io/Blog/my-post.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://Tonyryanworldwide.github.io/Blog/personal-info.html" rel="bookmark"
-                           title="Permalink to Personal Info">Personal Info</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2018-12-09T00:00:00-05:00">
-                Published: Sun 09 December 2018
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://Tonyryanworldwide.github.io/Blog/author/tony-ryan.html">Tony Ryan</a>
-        </address>
-<p>In <a href="https://Tonyryanworldwide.github.io/Blog/category/pages.html">pages</a>.</p>
-
-</footer><!-- /.post-info -->                <div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span>
-<span class="kn">from</span> <span class="nn">pandas</span> <span class="kn">import</span> <span class="o">*</span>
-<span class="kn">import</span> <span class="nn">datetime</span>
-<span class="c1">#from pandas import Series</span>
-<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">date</span>
-
-<span class="n">TimeDate</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">strptime</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="s1">&#39;%A, %B </span><span class="si">%d</span><span class="s1">&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">date</span><span class="p">()</span>
-
-<span class="n">cols</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Project&#39;</span><span class="p">,</span><span class="s1">&#39;start&#39;</span><span class="p">,</span><span class="s1">&#39;end&#39;</span> <span class="p">,</span> <span class="s1">&#39;Time&#39;</span><span class="p">]</span>
-<span class="n">Time</span> <span class="o">=</span> <span class="n">pandas</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;C:/Users/Tonyryanworldwide/Desktop/Hours/Daily_Time_Detail_All_Projects.csv&#39;</span><span class="p">,</span> <span class="n">skiprows</span> <span class="o">=</span> <span class="mi">2</span><span class="p">,</span> <span class="n">header</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">names</span> <span class="o">=</span>  <span class="p">[</span><span class="s1">&#39;Project&#39;</span><span class="p">,</span><span class="s1">&#39;start&#39;</span><span class="p">,</span><span class="s1">&#39;end&#39;</span> <span class="p">,</span> <span class="s1">&#39;Time …</span></pre></div>
-                <a class="readmore" href="https://Tonyryanworldwide.github.io/Blog/personal-info.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-                </ol><!-- /#posts-list -->
-                </section><!-- /#content -->
         <section id="extras" class="body">
                 <div class="social">
                         <h2>social</h2>
